@@ -73,7 +73,7 @@ def part2(stripInput):
 # Main function
 def main():
     # Read in the input
-    with open("InputDay9.txt") as f:
+    with open("InputDay09.txt") as f:
         inputStr = f.read()
     stripInput = "".join(inputStr.split())
 

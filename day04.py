@@ -5,7 +5,7 @@ def main():
     total = 0
 
     # Read in the rooms
-    with open("InputDay4.txt") as f:
+    with open("InputDay04.txt") as f:
         inputStr = f.readlines()
     rooms = [room.split('-') for room in inputStr]
 

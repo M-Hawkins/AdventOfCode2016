@@ -6,7 +6,7 @@ def main():
     hq = -1
 
     # Read in input file and split by commas
-    with open("InputDay1.txt") as f:
+    with open("InputDay01.txt") as f:
         inputStr = f.read()
         inputStr = inputStr.replace(' ', '')
     directions = inputStr.split(",")

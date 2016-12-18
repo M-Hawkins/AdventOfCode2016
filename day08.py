@@ -20,7 +20,7 @@ def gridCount(screen):
 # Main function
 def main():
     # Read in the input
-    with open("InputDay8.txt") as f:
+    with open("InputDay08.txt") as f:
         inputStr = f.readlines()
     stripInput = [line.strip() for line in inputStr]
 

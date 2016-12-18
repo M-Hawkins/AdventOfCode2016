@@ -2,7 +2,7 @@ import collections
 
 def main():
     # Read in the input
-    with open("InputDay6.txt") as f:
+    with open("InputDay06.txt") as f:
         inputStr = f.readlines()
     wordList = [w.strip() for w in inputStr]
 

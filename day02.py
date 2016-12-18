@@ -9,7 +9,7 @@ def main():
     code = ""
 
     # Read in the commands
-    with open("InputDay2.txt") as f:
+    with open("InputDay02.txt") as f:
         inputStr = f.readlines()
         inputStr = [s.strip() for s in inputStr]
 

@@ -16,7 +16,7 @@ def aba(ip):
 # Main function
 def main():
     # Read in the input
-    with open("InputDay7.txt") as f:
+    with open("InputDay07.txt") as f:
         inputStr = f.readlines()
     # Split the input and group it depending on whether the characters are
     # inside of outside of square brackets

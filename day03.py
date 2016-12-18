@@ -3,7 +3,7 @@ def main():
     count = 0
 
     # Read in the commands
-    with open("InputDay3.txt") as f:
+    with open("InputDay03.txt") as f:
         inputStr = f.readlines()
         splitLines = [line.split(' ') for line in inputStr]
         parsed = []
