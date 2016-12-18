@@ -36,12 +36,10 @@ def main():
 
             # Print name if it is related to the north pole
             if ("northpole" in rs):
-                print(rs)
-                print(checkSum[0])
-                print('-----')
+                print("Day04 Part2: " + str(checkSum[0]))
 
     # Print the sector ID total
-    print(total)
+    print("Day04 Part1: " + str(total))
 
 if __name__ == "__main__":
     main()

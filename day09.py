@@ -78,8 +78,8 @@ def main():
     stripInput = "".join(inputStr.split())
 
     # Print out the answers for part 1 and 2
-    print(part1(stripInput))
-    print(part2(stripInput))
+    print("Day09 Part1: " + str(part1(stripInput)))
+    print("Day09 Part2: " + str(part2(stripInput)))
 
 if __name__ == "__main__":
     main()

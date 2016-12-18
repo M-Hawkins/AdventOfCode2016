@@ -15,11 +15,8 @@ def main():
             if n > 47 and n < 56:
                 if (pw[int(h[5])] == " "):
                     pw[int(h[5])] = h[6]
-                    print(i)
-                    print(h)
-                    print("---")
         i += 1
-    print("".join(pw))
+    print("Day05 Part2: " + str("".join(pw)))
 
 if __name__ == "__main__":
     main()

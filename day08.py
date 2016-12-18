@@ -65,13 +65,10 @@ def main():
             for y in range(len(screen)):
                 screen[y][x] = ele[y]
 
-        # print(instruction)
-        # gridPrint(screen)
-        # print('----------')
-
     # Print out the screen and the number of lit pixels
+    print("Day08 Part1: " + str(gridCount(screen)))
+    print("Day08 Part2: ")
     gridPrint(screen)
-    print(gridCount(screen))
 
 if __name__ == "__main__":
     main()

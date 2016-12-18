@@ -22,7 +22,7 @@ def main():
                 count += 1
 
     # Print out the total count
-    print(count)
+    print("Day03 Part2: " + str(count))
 
 if __name__ == "__main__":
     main()

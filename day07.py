@@ -25,8 +25,8 @@ def main():
     groupIP = [(' '.join(p[::2]), ' '.join(p[1::2])) for p in wordList]
 
     # Print the number of ips with ABBA and ABA support
-    print(sum(abba(ip) for ip in groupIP))
-    print(sum(aba(ip) for ip in groupIP))
+    print("Day07 Part1: " + str(sum(abba(ip) for ip in groupIP)))
+    print("Day07 Part2: " + str(sum(aba(ip) for ip in groupIP)))
 
 if __name__ == "__main__":
     main()

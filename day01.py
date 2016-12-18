@@ -35,10 +35,10 @@ def main():
                     hq = xy[:]
     
     # Print how many blocks away we are total
-    print(abs(xy[0]) + abs(xy[1]))
+    print("Day01 Part1: " + str(abs(xy[0]) + abs(xy[1])))
     
     # Print how many blocks away we are from the HQ
-    print(abs(hq[0]) + abs(hq[1]))
+    print("Day01 Part2: " + str(abs(hq[0]) + abs(hq[1])))
 
 
 if __name__ == "__main__":

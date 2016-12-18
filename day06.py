@@ -18,7 +18,7 @@ def main():
         ans += letterCount.most_common()[-1][0]
 
     # Print the result
-    print(ans)
+    print("Day06 Part2: " + str(ans))
 
 if __name__ == "__main__":
     main()

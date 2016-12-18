@@ -29,7 +29,7 @@ def main():
         code += keys[loc[1]][loc[0]]
 
     # Print out the key code
-    print(code)
+    print("Day02 Part2: " + str(code))
 
 if __name__ == "__main__":
     main()
